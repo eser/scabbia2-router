@@ -50,12 +50,28 @@ REGEX;
 
 
     /** @type array route definitions */
-    public $routes = [
-        "static" => [],
-        "variable" => null,
-        "named" => []
-    ];
+    public $routes;
 
+
+    /**
+     * Initializes a router
+     *
+     * @param array|null  $uRoutes   routes
+     *
+     * @return Router
+     */
+    public function __construct($uRoutes = null)
+    {
+        if ($uRoutes !== null) {
+            $this->routes = $uRoutes;
+        } else {
+            $this->routes = [
+                "static" => [],
+                "variable" => null,
+                "named" => []
+            ];
+        }
+    }
 
     /**
      * The dispatch method
