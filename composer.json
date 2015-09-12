@@ -1,0 +1,41 @@
+{
+    "name": "scabbiafw/scabbia2-router",
+    "description": "Scabbia2 Router Component",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "keywords": [
+        "larukedi",
+        "scabbia",
+        "scabbia2",
+        "scabbiafw",
+        "router"
+    ],
+    "homepage": "http://www.scabbiafw.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Scabbia Framework Organization",
+            "email": "contact@scabbiafw.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "scabbiafw/scabbia2-tasks": "*",
+        "scabbiafw/scabbia2-testing": "*"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Scabbia\\Router\\": [ "src/Router/" ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Scabbia\\Tests\\Router\\": [ "tests/Router/" ]
+        }
+    }
+}
