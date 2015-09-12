@@ -14,7 +14,7 @@
 - [Documentation](http://scabbiafw.com/docs/)
 - [Twitter](https://twitter.com/scabbiafw)
 - [Contributor List](contributors.md)
-- [License Information](LICENSE)
+- License Information [I](LICENSE-Apache) [II](LICENSE-Flask)
 
 
 ## Contributing
