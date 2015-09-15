@@ -1,8 +1,6 @@
 # Scabbia2 Router Component
 
-**Scabbia2** is an open source PHP framework project which is currently on planning stage. Keep visiting [project homepage](http://scabbiafw.com/) and [repositories](https://github.com/scabbiafw/) for further updates.
-
-[This repository](https://github.com/scabbiafw/scabbia2-router/) contains the files of Scabbia2 Router Component which is probably required for Scabbia2 Framework to run.
+[This component](https://github.com/scabbiafw/scabbia2-router/) is a simple routing dispatcher which resolves and dispatchs the routes to callbacks or controllers.
 
 [![Build Status](https://travis-ci.org/scabbiafw/scabbia2-router.png?branch=master)](https://travis-ci.org/scabbiafw/scabbia2-router)
 [![Total Downloads](https://poser.pugx.org/scabbiafw/scabbia2-router/downloads.png)](https://packagist.org/packages/scabbiafw/scabbia2-router)
