@@ -43,7 +43,8 @@
     },
     "require-dev": {
         "scabbiafw/scabbia2-tasks": "*",
-        "scabbiafw/scabbia2-testing": "*"
+        "scabbiafw/scabbia2-testing": "*",
+        "squizlabs/php_codesniffer": "2.*"
     },
     "suggest": {
     },
