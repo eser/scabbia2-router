@@ -6,10 +6,11 @@
 [![Total Downloads](https://poser.pugx.org/scabbiafw/scabbia2-router/downloads.png)](https://packagist.org/packages/scabbiafw/scabbia2-router)
 [![Latest Stable Version](https://poser.pugx.org/scabbiafw/scabbia2-router/v/stable)](https://packagist.org/packages/scabbiafw/scabbia2-router)
 [![Latest Unstable Version](https://poser.pugx.org/scabbiafw/scabbia2-router/v/unstable)](https://packagist.org/packages/scabbiafw/scabbia2-router)
+[![Documentation Status](https://readthedocs.org/projects/scabbia2-documentation/badge/?version=latest)](http://docs.scabbiafw.com/)
 [![License](https://poser.pugx.org/scabbiafw/scabbia2-router/license.png)](https://packagist.org/packages/scabbiafw/scabbia2-router)
 
 ## Links
-- [Documentation](http://scabbiafw.com/docs/)
+- [Documentation](http://docs.scabbiafw.com/)
 - [Twitter](https://twitter.com/scabbiafw)
 - [Contributor List](contributors.md)
 - License Information [I](LICENSE-Apache) [II](LICENSE-Flask)
