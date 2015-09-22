@@ -3,11 +3,11 @@
 [This component](https://github.com/scabbiafw/scabbia2-router/) is a simple routing dispatcher which resolves and dispatchs the routes to callbacks or controllers.
 
 [![Build Status](https://travis-ci.org/scabbiafw/scabbia2-router.png?branch=master)](https://travis-ci.org/scabbiafw/scabbia2-router)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/scabbiafw/scabbia2-router/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/scabbiafw/scabbia2-router/?branch=master)
 [![Total Downloads](https://poser.pugx.org/scabbiafw/scabbia2-router/downloads.png)](https://packagist.org/packages/scabbiafw/scabbia2-router)
 [![Latest Stable Version](https://poser.pugx.org/scabbiafw/scabbia2-router/v/stable)](https://packagist.org/packages/scabbiafw/scabbia2-router)
 [![Latest Unstable Version](https://poser.pugx.org/scabbiafw/scabbia2-router/v/unstable)](https://packagist.org/packages/scabbiafw/scabbia2-router)
 [![Documentation Status](https://readthedocs.org/projects/scabbia2-documentation/badge/?version=latest)](http://docs.scabbiafw.com/)
-[![License](https://poser.pugx.org/scabbiafw/scabbia2-router/license.png)](https://packagist.org/packages/scabbiafw/scabbia2-router)
 
 ## Links
 - [Documentation](http://docs.scabbiafw.com/)
