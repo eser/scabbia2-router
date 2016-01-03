@@ -9,6 +9,63 @@
 [![Latest Unstable Version](https://poser.pugx.org/eserozvataf/scabbia2-router/v/unstable)](https://packagist.org/packages/eserozvataf/scabbia2-router)
 [![Documentation Status](https://readthedocs.org/projects/scabbia2-documentation/badge/?version=latest)](https://readthedocs.org/projects/scabbia2-documentation)
 
+## Usage
+
+### Creating route definitions
+
+```php
+use Scabbia\Router\RouteCollection;
+
+$routes = new RouteCollection();
+
+// adding a static route
+$routes->addRoute('GET', '/about', 'AboutController::IndexAction');
+
+// adding a static route with multiple http methods
+$routes->addRoute(['GET', 'POST'], '/about', 'AboutController::IndexAction');
+
+// adding a dynamic route
+$routes->addRoute('GET', '/users/profile/{id:[a-z]+}', 'UsersController::ProfileAction');
+
+// adding a dynamic route with a routing name
+$routes->addRoute('GET', '/users/posts/{id:[a-z]+}', 'UsersController::PostsAction', 'user/posts');
+```
+
+### Saving route definitions
+
+```php
+file_put_contents('routes.json', json_encode($routes->save()));
+```
+
+### Loading route definitions back
+
+```php
+$routes = json_decode(file_get_contents('routes.json'));
+```
+
+### Dispatching a route
+
+```php
+use Scabbia\Router\Router;
+
+$router = new Router($routes); // initialize a new router with route definitions
+$route = $router->dispatch('GET', '/about');
+
+if ($route['status'] === Router::FOUND) {
+  call_user_func($route['callback'], ...$route['parameters']);
+}
+```
+
+### Reverse Routing with names
+
+```php
+use Scabbia\Router\Router;
+
+$router = new Router($routes); // initialize a new router with route definitions
+
+echo $router->path('users/posts', [ 'id' => 'eser' ]);
+```
+
 ## Links
 - [List of All Scabbia2 Components](https://github.com/eserozvataf/scabbia2)
 - [Documentation](https://readthedocs.org/projects/scabbia2-documentation)
